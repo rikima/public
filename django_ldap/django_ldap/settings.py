@@ -118,3 +118,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTHENTICATION_BACKENDS = ['django_ldap.backend.Backend']
+LDAP_HOST = 'your-ldap-host-ip-address'
+LDAP_PORT = 636
+LDAP_DOMAIN = 'your-ldap-domain'
