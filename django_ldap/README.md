@@ -13,7 +13,6 @@ $ docker build -t django_ldap .
 $ docker run -it -p 8000:8000 -v $PWD:$PWD -w $PWD --name django_ldap --rm django_ldap /bin/bash
 ```
 
-
 ## Django
 ```
 $ django-admin startproject django_ldap .
@@ -59,3 +58,7 @@ $ python3 manage.py runserver 0.0.0.0:8000
 ## ウェブブラウザでアクセス
 - http://hostname:8000/
 - http://hostname:8000/admin/
+
+
+# Djangoの認証のカスタマイズ
+- https://docs.djangoproject.com/en/2.0/topics/auth/customizing/
