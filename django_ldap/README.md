@@ -10,7 +10,7 @@
 ## Docker
 ```
 $ docker build -t django_ldap .
-$ docker run -it -p 8000:8000 --name django_ldap --rm django_ldap /bin/bash
+$ docker run -it -p 8000:8000 -v $PWD:$PWD -w $PWD --name django_ldap --rm django_ldap /bin/bash
 ```
 
 
@@ -55,3 +55,7 @@ Superuser created successfully.
 
 $ python3 manage.py runserver 0.0.0.0:8000
 ```
+
+## ウェブブラウザでアクセス
+- http://hostname:8000/
+- http://hostname:8000/admin/
