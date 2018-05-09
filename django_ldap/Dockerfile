@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:latest
 ENV LANG=ja_JP.UTF-8 \
     LC_ALL=ja_JP.UTF-8
 RUN set -ex && apt-get update && apt-get upgrade -y && apt-get install -y \
