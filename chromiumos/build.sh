@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+sudo apt-get update
 sudo apt-get install -y git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python-virtualenv expect
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 export PATH=$PATH:$PWD/depot_tools
