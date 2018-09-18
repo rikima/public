@@ -44,8 +44,9 @@
 
 
 [keras]
-13.231.171.84
-52.194.242.111
+xxx.xxx.xxx.xxx
+yyy.yyy.yyy.yyy
+zzz.zzz.zzz.zzz
 
 [keras:vars]
 ansible_python_interpreter=/usr/bin/python3
